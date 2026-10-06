@@ -1,3 +1,22 @@
+<!--
+  ⚠️ **이 파일을 고치는 것만으로는 게시되지 않는다.**
+
+  실제로 App Store 「개인정보 처리방침 URL」이 가리키는 곳은 **다른 저장소**다:
+      https://jaykwakjy-sudo.github.io/awayclock-site/privacy.html
+      = GitHub  jaykwakjy-sudo/awayclock-site  (main 브랜치, 루트의 privacy.html)
+
+  이 저장소(월급루팡)에는 git 리모트가 없다. docs/ 는 원본일 뿐이고,
+  고친 뒤 **직접 올려야** 바뀐다:
+
+      gh api -X PUT repos/jaykwakjy-sudo/awayclock-site/contents/privacy.html \
+        -f message="..." -f sha="<원격 sha>" -f content="<base64>"
+
+  ⚠️ 한 번 당했다 — 여기만 1.2로 고쳐 놓고 App Store 개인정보 라벨을 「수집함」으로
+     게시했더니, 라벨은 "수집함"인데 **링크된 방침은 "수집하지 않습니다"**인 상태가
+     라이브에 그대로 떴다. 라벨을 건드리면 이 파일도 같이 올려야 한다.
+
+  ⚠️ GitHub Pages 반영까지 20~40초 걸린다. 올리자마자 확인하면 옛 내용이 나온다.
+-->
 <!doctype html><html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>자리비움 · 개인정보처리방침</title>
